@@ -1,0 +1,13 @@
+{
+  "type": "procedural_transform",
+  "source_assets": [
+    "CAT-IDLE-UP",
+    "CAT-IDLE-DOWN",
+    "CAT-IDLE-LEFT",
+    "CAT-IDLE-RIGHT"
+  ],
+  "duration": "clamp(90+45*cells,150,420)",
+  "stretch": 1.05,
+  "squash": 0.97,
+  "implementation": "src/game/game.ts"
+}

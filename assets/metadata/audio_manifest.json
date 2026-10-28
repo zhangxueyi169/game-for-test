@@ -1,0 +1,92 @@
+[
+  {
+    "name": "slide",
+    "file": "production\\audio\\slide_v001.wav",
+    "duration_seconds": 0.32,
+    "sample_rate": 24000,
+    "peak": 0.11689815443990709,
+    "source": "original procedural synthesis; not a cat recording"
+  },
+  {
+    "name": "paw",
+    "file": "production\\audio\\paw_v001.wav",
+    "duration_seconds": 0.09,
+    "sample_rate": 24000,
+    "peak": 0.07640939363780319,
+    "source": "original procedural synthesis; not a cat recording"
+  },
+  {
+    "name": "stop",
+    "file": "production\\audio\\stop_v001.wav",
+    "duration_seconds": 0.12,
+    "sample_rate": 24000,
+    "peak": 0.1062843496697972,
+    "source": "original procedural synthesis; not a cat recording"
+  },
+  {
+    "name": "mat",
+    "file": "production\\audio\\mat_v001.wav",
+    "duration_seconds": 0.18,
+    "sample_rate": 24000,
+    "peak": 0.09601255102079535,
+    "source": "original procedural synthesis; not a cat recording"
+  },
+  {
+    "name": "yawn",
+    "file": "production\\audio\\yawn_v001.wav",
+    "duration_seconds": 0.65,
+    "sample_rate": 24000,
+    "peak": 0.15961879527655715,
+    "source": "original procedural synthesis; not a cat recording"
+  },
+  {
+    "name": "yawn_alt",
+    "file": "production\\audio\\yawn_alt_v001.wav",
+    "duration_seconds": 0.7,
+    "sample_rate": 24000,
+    "peak": 0.16714867493628188,
+    "source": "original procedural synthesis; not a cat recording"
+  },
+  {
+    "name": "purr",
+    "file": "production\\audio\\purr_v001.wav",
+    "duration_seconds": 1.2,
+    "sample_rate": 24000,
+    "peak": 0.1173482467451118,
+    "source": "original procedural synthesis; not a cat recording"
+  },
+  {
+    "name": "complete",
+    "file": "production\\audio\\complete_v001.wav",
+    "duration_seconds": 0.42,
+    "sample_rate": 24000,
+    "peak": 0.12999941314355948,
+    "source": "original procedural synthesis; not a cat recording"
+  },
+  {
+    "name": "win",
+    "file": "production\\audio\\win_v001.wav",
+    "duration_seconds": 0.75,
+    "sample_rate": 24000,
+    "peak": 0.12999099995924884,
+    "source": "original procedural synthesis; not a cat recording"
+  },
+  {
+    "name": "bgm_cozy",
+    "file": "production/audio/bgm_cozy_v001.wav",
+    "duration_seconds": 48.0,
+    "sample_rate": 24000,
+    "peak": 0.19077462603910678,
+    "source": "original composition and procedural synthesis",
+    "description": "48秒无缝循环；80 BPM，柔和琴音旋律、分解和弦与低音，无鼓点"
+  },
+  {
+    "name": "fireworks",
+    "file": "production/audio/fireworks_v001.wav",
+    "duration_seconds": 3.4,
+    "sample_rate": 24000,
+    "peak": 0.11356049528973908,
+    "source": "original composition and procedural synthesis",
+    "description": "五次柔和绽放与细碎闪烁，间隔380ms；无尖锐爆炸声"
+  }
+]

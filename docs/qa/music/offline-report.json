@@ -1,0 +1,15 @@
+{
+  "offline": true,
+  "noAutoplayBeforeGesture": true,
+  "loopDuration": 48,
+  "oneMusicVoice": true,
+  "fireworksSynced": true,
+  "fireworksStopOnNext": true,
+  "muteAndRestore": true,
+  "visibilityHandler": true,
+  "mutePersisted": true,
+  "errors": [],
+  "external": [],
+  "realDevice": false,
+  "humanListening": false
+}

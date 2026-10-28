@@ -1,0 +1,57 @@
+{
+  "device": "Windows headless Edge, mobile viewport/touch emulation",
+  "realDevice": false,
+  "checks": [
+    "44px targets; touch small/diagonal ignored; cardinal swipe and undo",
+    "missing room background does not block play or victory",
+    "blocked/full storage still permits complete game flow"
+  ],
+  "localColdLoadMs": 1417,
+  "resources": {
+    "requests": 39,
+    "encodedBytes": 35984080
+  },
+  "touchTargets": [
+    {
+      "id": "go-home",
+      "w": 44,
+      "h": 44
+    },
+    {
+      "id": "sound",
+      "w": 44,
+      "h": 44
+    },
+    {
+      "id": "help",
+      "w": 44,
+      "h": 44
+    },
+    {
+      "id": "left",
+      "w": 44,
+      "h": 44
+    },
+    {
+      "id": "up",
+      "w": 44,
+      "h": 44
+    },
+    {
+      "id": "down",
+      "w": 44,
+      "h": 44
+    },
+    {
+      "id": "right",
+      "w": 44,
+      "h": 44
+    }
+  ],
+  "frameTiming": {
+    "samples": 115,
+    "medianMs": 16.699999999999818,
+    "p95Ms": 16.800000000000182
+  },
+  "errors": []
+}

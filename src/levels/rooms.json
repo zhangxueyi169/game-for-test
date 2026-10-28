@@ -1,0 +1,757 @@
+{
+  "schemaVersion": 1,
+  "rooms": [
+    {
+      "number": 1,
+      "id": "room-01",
+      "revision": 1,
+      "name": "第一串爪印",
+      "theme": "base",
+      "rows": [
+        "#####",
+        "#S..#",
+        "###.#",
+        "###N#",
+        "#####"
+      ],
+      "intent": "两次滑动，理解滑行和回窝。",
+      "tutorial": "滑动小猫，遇到墙会停下；铺满地板后停在猫窝。",
+      "challengeBudget": 4,
+      "optimalSteps": 2,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "right",
+        "down"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 4,
+        "targetCells": 5
+      }
+    },
+    {
+      "number": 2,
+      "id": "room-02",
+      "revision": 1,
+      "name": "回头看看",
+      "theme": "base",
+      "rows": [
+        "#####",
+        "#S..#",
+        "#.#.#",
+        "#N..#",
+        "#####"
+      ],
+      "intent": "绕过障碍，覆盖两侧再回窝。",
+      "tutorial": "走过的地方还可以再走。",
+      "challengeBudget": 7,
+      "optimalSteps": 5,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "left"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 30,
+        "targetCells": 8
+      }
+    },
+    {
+      "number": 3,
+      "id": "room-03",
+      "revision": 1,
+      "name": "柔软的停靠",
+      "theme": "base",
+      "rows": [
+        "#####",
+        "#S.M#",
+        "###.#",
+        "#N..#",
+        "#####"
+      ],
+      "intent": "必经软垫中途停下，再转弯。",
+      "tutorial": "软垫会让小猫停下，现在可以换个方向。",
+      "challengeBudget": 5,
+      "optimalSteps": 3,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "right",
+        "down",
+        "left"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 7,
+        "targetCells": 7
+      }
+    },
+    {
+      "number": 4,
+      "id": "room-04",
+      "revision": 1,
+      "name": "侧边的小角落",
+      "theme": "base",
+      "rows": [
+        "######",
+        "#S.M.#",
+        "###..#",
+        "#N...#",
+        "######"
+      ],
+      "intent": "软垫停靠与侧边漏格。",
+      "tutorial": "",
+      "challengeBudget": 8,
+      "optimalSteps": 6,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "right",
+        "down",
+        "up",
+        "right",
+        "down",
+        "left"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 37,
+        "targetCells": 10
+      }
+    },
+    {
+      "number": 5,
+      "id": "room-05",
+      "revision": 1,
+      "name": "第一间小屋",
+      "theme": "base",
+      "rows": [
+        "######",
+        "#S...#",
+        "#.#.M#",
+        "#..#.#",
+        "#.M.N#",
+        "######"
+      ],
+      "intent": "覆盖、停靠、回访、回窝的完整组合。",
+      "tutorial": "",
+      "challengeBudget": 15,
+      "optimalSteps": 11,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "right",
+        "down",
+        "left",
+        "up",
+        "down",
+        "right"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 376,
+        "targetCells": 14
+      },
+      "designRevision": "保留房间墙体结构，调整软垫位置以保证所有地板可覆盖并达到目标路线深度。"
+    },
+    {
+      "number": 6,
+      "id": "room-06",
+      "revision": 1,
+      "name": "换个入口",
+      "theme": "base",
+      "rows": [
+        "######",
+        "#S...#",
+        "#M.#.#",
+        "#..#.#",
+        "#N...#",
+        "######"
+      ],
+      "intent": "同一个停靠点从不同方向进入。",
+      "tutorial": "",
+      "challengeBudget": 9,
+      "optimalSteps": 7,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "right",
+        "down",
+        "left",
+        "up",
+        "right",
+        "down",
+        "left"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 210,
+        "targetCells": 14
+      },
+      "designRevision": "保留房间墙体结构，调整软垫位置以保证所有地板可覆盖并达到目标路线深度。"
+    },
+    {
+      "number": 7,
+      "id": "room-07",
+      "revision": 1,
+      "name": "先去哪边",
+      "theme": "base",
+      "rows": [
+        "#######",
+        "#S....#",
+        "#.###.#",
+        "#.M...#",
+        "#..#.M#",
+        "#....N#",
+        "#######"
+      ],
+      "intent": "分支访问次序影响重复移动。",
+      "tutorial": "",
+      "challengeBudget": 11,
+      "optimalSteps": 9,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "up",
+        "left",
+        "down",
+        "right"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 377,
+        "targetCells": 21
+      },
+      "designRevision": "增加一格定位障碍并调整软垫；去除原布局不可覆盖的路线问题，保留分区设计。"
+    },
+    {
+      "number": 8,
+      "id": "room-08",
+      "revision": 1,
+      "name": "墙边转身",
+      "theme": "base",
+      "rows": [
+        "#######",
+        "#S....#",
+        "#.##..#",
+        "#...M.#",
+        "#.#.#.#",
+        "#..M.N#",
+        "#######"
+      ],
+      "intent": "墙体是帮助定位的停靠边。",
+      "tutorial": "",
+      "challengeBudget": 14,
+      "optimalSteps": 11,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "down",
+        "right",
+        "up",
+        "left",
+        "right",
+        "up",
+        "left",
+        "right",
+        "down",
+        "left",
+        "right"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 711,
+        "targetCells": 21
+      },
+      "designRevision": "保留房间墙体结构，调整软垫位置以保证所有地板可覆盖并达到目标路线深度。"
+    },
+    {
+      "number": 9,
+      "id": "room-09",
+      "revision": 1,
+      "name": "两个休息点",
+      "theme": "base",
+      "rows": [
+        "#######",
+        "#S....#",
+        "#.###.#",
+        "#.M..M#",
+        "#.###.#",
+        "#....N#",
+        "#######"
+      ],
+      "intent": "两软垫连接不同区域。",
+      "tutorial": "",
+      "challengeBudget": 11,
+      "optimalSteps": 9,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "right",
+        "down",
+        "left",
+        "right"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 157,
+        "targetCells": 19
+      },
+      "designRevision": "保留房间墙体结构，调整软垫位置以保证所有地板可覆盖并达到目标路线深度。"
+    },
+    {
+      "number": 10,
+      "id": "room-10",
+      "revision": 1,
+      "name": "一路顺风",
+      "theme": "base",
+      "rows": [
+        "######",
+        "#S...#",
+        "#.##.#",
+        "#M..N#",
+        "######"
+      ],
+      "intent": "路线更明显，释放前几关的压力。",
+      "tutorial": "",
+      "challengeBudget": 8,
+      "optimalSteps": 6,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "right"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 34,
+        "targetCells": 10
+      }
+    },
+    {
+      "number": 11,
+      "id": "room-11",
+      "revision": 1,
+      "name": "中央小枢纽",
+      "theme": "base",
+      "rows": [
+        "#######",
+        "#S.M..#",
+        "#.#.#.#",
+        "#..M..#",
+        "###.#.#",
+        "#N....#",
+        "#######"
+      ],
+      "intent": "多次利用一个中央停靠点。",
+      "tutorial": "",
+      "challengeBudget": 14,
+      "optimalSteps": 12,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "down",
+        "right",
+        "down",
+        "up",
+        "right",
+        "left",
+        "up",
+        "left",
+        "right",
+        "right",
+        "down",
+        "left"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 1201,
+        "targetCells": 20
+      }
+    },
+    {
+      "number": 12,
+      "id": "room-12",
+      "revision": 1,
+      "name": "对称里的不同",
+      "theme": "base",
+      "rows": [
+        "######",
+        "#SM..#",
+        "#..#.#",
+        "#....#",
+        "#.#.M#",
+        "#...N#",
+        "######"
+      ],
+      "intent": "相近外观下识别不同通道连接。",
+      "tutorial": "",
+      "challengeBudget": 13,
+      "optimalSteps": 11,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "down",
+        "right",
+        "up",
+        "up",
+        "left",
+        "down",
+        "right",
+        "down",
+        "left",
+        "down",
+        "right"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 1574,
+        "targetCells": 18
+      },
+      "designRevision": "保留房间墙体结构，调整软垫位置以保证所有地板可覆盖并达到目标路线深度。"
+    },
+    {
+      "number": 13,
+      "id": "room-13",
+      "revision": 1,
+      "name": "绕到另一侧",
+      "theme": "base",
+      "rows": [
+        "#######",
+        "#S....#",
+        "#M###.#",
+        "#.....#",
+        "#.##..#",
+        "#...MN#",
+        "#######"
+      ],
+      "intent": "通过绕行改变进入方向。",
+      "tutorial": "",
+      "challengeBudget": 11,
+      "optimalSteps": 9,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "down",
+        "down",
+        "right",
+        "up",
+        "left",
+        "up",
+        "up",
+        "right",
+        "down"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 263,
+        "targetCells": 20
+      },
+      "designRevision": "保留房间墙体结构，调整软垫位置以保证所有地板可覆盖并达到目标路线深度。"
+    },
+    {
+      "number": 14,
+      "id": "room-14",
+      "revision": 1,
+      "name": "留好回家路",
+      "theme": "base",
+      "rows": [
+        "#######",
+        "#S.M..#",
+        "###.#.#",
+        "#...M.#",
+        "#.#...#",
+        "#N..#.#",
+        "#######"
+      ],
+      "intent": "最后覆盖位置与猫窝衔接。",
+      "tutorial": "",
+      "challengeBudget": 14,
+      "optimalSteps": 12,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "right",
+        "down",
+        "left",
+        "up",
+        "right",
+        "down",
+        "right",
+        "down",
+        "up",
+        "left",
+        "down",
+        "left"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 193,
+        "targetCells": 20
+      },
+      "designRevision": "保留房间墙体结构，调整软垫位置以保证所有地板可覆盖并达到目标路线深度。"
+    },
+    {
+      "number": 15,
+      "id": "room-15",
+      "revision": 1,
+      "name": "完整小房间",
+      "theme": "base",
+      "rows": [
+        "#######",
+        "#S.M..#",
+        "#.#.#.#",
+        "#..M..#",
+        "#.#.#.#",
+        "#N....#",
+        "#######"
+      ],
+      "intent": "环路、支路、停靠与回窝的综合展示。",
+      "tutorial": "",
+      "challengeBudget": 15,
+      "optimalSteps": 13,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "down",
+        "right",
+        "up",
+        "left",
+        "down",
+        "left",
+        "up",
+        "right",
+        "down",
+        "right",
+        "left",
+        "down",
+        "left"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 1404,
+        "targetCells": 21
+      },
+      "designRevision": "保留房间墙体结构，调整软垫位置以保证所有地板可覆盖并达到目标路线深度。"
+    },
+    {
+      "number": 16,
+      "id": "room-16",
+      "revision": 1,
+      "name": "阳光客厅",
+      "theme": "living",
+      "rows": [
+        "#######",
+        "#S....#",
+        "#.##..#",
+        "#.##.M#",
+        "#.....#",
+        "#..M.N#",
+        "#######"
+      ],
+      "intent": "中央茶几形成环路，安排外围访问顺序。",
+      "tutorial": "",
+      "challengeBudget": 14,
+      "optimalSteps": 12,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "down",
+        "right",
+        "up",
+        "right",
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "up",
+        "down",
+        "right"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 2063,
+        "targetCells": 21
+      },
+      "designRevision": "保留房间墙体结构，调整软垫位置以保证所有地板可覆盖并达到目标路线深度。"
+    },
+    {
+      "number": 17,
+      "id": "room-17",
+      "revision": 1,
+      "name": "安静书房",
+      "theme": "study",
+      "rows": [
+        "#######",
+        "#S.M..#",
+        "#.#.#.#",
+        "#.#.#.#",
+        "#..M..#",
+        "#.#.#.#",
+        "#....N#",
+        "#######"
+      ],
+      "intent": "书架划分狭长通道，通过停靠点换道。",
+      "tutorial": "",
+      "challengeBudget": 15,
+      "optimalSteps": 13,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "down",
+        "right",
+        "up",
+        "left",
+        "down",
+        "down",
+        "up",
+        "left",
+        "up",
+        "right",
+        "down",
+        "right",
+        "down"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 1404,
+        "targetCells": 24
+      }
+    },
+    {
+      "number": 18,
+      "id": "room-18",
+      "revision": 1,
+      "name": "温暖卧室",
+      "theme": "bedroom",
+      "rows": [
+        "#######",
+        "#S....#",
+        "#.###.#",
+        "#.....#",
+        "#..#..#",
+        "#NM.M.#",
+        "#######"
+      ],
+      "intent": "床体分隔空间，先处理外侧再回窝。",
+      "tutorial": "",
+      "challengeBudget": 13,
+      "optimalSteps": 11,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "right",
+        "down",
+        "left",
+        "up",
+        "down",
+        "left",
+        "up",
+        "right",
+        "up",
+        "left",
+        "down"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 920,
+        "targetCells": 21
+      },
+      "designRevision": "保留房间墙体结构，调整软垫位置以保证所有地板可覆盖并达到目标路线深度。"
+    },
+    {
+      "number": 19,
+      "id": "room-19",
+      "revision": 1,
+      "name": "午后花房",
+      "theme": "greenhouse",
+      "rows": [
+        "#######",
+        "#S.M..#",
+        "#.#.#.#",
+        "#..M..#",
+        "#.#.#.#",
+        "#M....#",
+        "#...#N#",
+        "#######"
+      ],
+      "intent": "几个花架小区域通过软垫衔接。",
+      "tutorial": "",
+      "challengeBudget": 16,
+      "optimalSteps": 14,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "down",
+        "down",
+        "right",
+        "up",
+        "left",
+        "down",
+        "right",
+        "up",
+        "left",
+        "left",
+        "right",
+        "down",
+        "right",
+        "down"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 4160,
+        "targetCells": 25
+      }
+    },
+    {
+      "number": 20,
+      "id": "room-20",
+      "revision": 1,
+      "name": "猫咪阁楼",
+      "theme": "attic",
+      "rows": [
+        "#######",
+        "#S..M.#",
+        "#.#.#.#",
+        "#...#.#",
+        "#.M...#",
+        "###.#.#",
+        "#M...N#",
+        "#######"
+      ],
+      "intent": "综合环路与枢纽，控制回访成本。",
+      "tutorial": "",
+      "challengeBudget": 16,
+      "optimalSteps": 14,
+      "optimalityProven": true,
+      "verifiedSolution": [
+        "down",
+        "right",
+        "right",
+        "left",
+        "up",
+        "right",
+        "down",
+        "up",
+        "left",
+        "right",
+        "right",
+        "down",
+        "left",
+        "right"
+      ],
+      "verification": {
+        "status": "solved",
+        "states": 789,
+        "targetCells": 24
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "canvas_ellipse",
+  "radius": [
+    12,
+    8
+  ],
+  "offset": [
+    0,
+    4
+  ],
+  "implementation": "src/game/game.ts"
+}

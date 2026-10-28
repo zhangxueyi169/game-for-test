@@ -1,0 +1,6 @@
+{
+  "type": "canvas_pulse",
+  "trigger": "all target cells covered",
+  "amplitude": 0.08,
+  "implementation": "src/game/game.ts"
+}

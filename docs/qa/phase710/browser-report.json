@@ -1,0 +1,255 @@
+{
+  "results": [
+    {
+      "mode": "explore",
+      "room": 1,
+      "steps": 2,
+      "theme": "base"
+    },
+    {
+      "mode": "explore",
+      "room": 2,
+      "steps": 5,
+      "theme": "base"
+    },
+    {
+      "mode": "explore",
+      "room": 3,
+      "steps": 3,
+      "theme": "base"
+    },
+    {
+      "mode": "explore",
+      "room": 4,
+      "steps": 6,
+      "theme": "base"
+    },
+    {
+      "mode": "explore",
+      "room": 5,
+      "steps": 11,
+      "theme": "base"
+    },
+    {
+      "mode": "explore",
+      "room": 6,
+      "steps": 7,
+      "theme": "base"
+    },
+    {
+      "mode": "explore",
+      "room": 7,
+      "steps": 9,
+      "theme": "base"
+    },
+    {
+      "mode": "explore",
+      "room": 8,
+      "steps": 11,
+      "theme": "base"
+    },
+    {
+      "mode": "explore",
+      "room": 9,
+      "steps": 9,
+      "theme": "base"
+    },
+    {
+      "mode": "explore",
+      "room": 10,
+      "steps": 6,
+      "theme": "base"
+    },
+    {
+      "mode": "explore",
+      "room": 11,
+      "steps": 12,
+      "theme": "base"
+    },
+    {
+      "mode": "explore",
+      "room": 12,
+      "steps": 11,
+      "theme": "base"
+    },
+    {
+      "mode": "explore",
+      "room": 13,
+      "steps": 9,
+      "theme": "base"
+    },
+    {
+      "mode": "explore",
+      "room": 14,
+      "steps": 12,
+      "theme": "base"
+    },
+    {
+      "mode": "explore",
+      "room": 15,
+      "steps": 13,
+      "theme": "base"
+    },
+    {
+      "mode": "explore",
+      "room": 16,
+      "steps": 12,
+      "theme": "living"
+    },
+    {
+      "mode": "explore",
+      "room": 17,
+      "steps": 13,
+      "theme": "study"
+    },
+    {
+      "mode": "explore",
+      "room": 18,
+      "steps": 11,
+      "theme": "bedroom"
+    },
+    {
+      "mode": "explore",
+      "room": 19,
+      "steps": 14,
+      "theme": "greenhouse"
+    },
+    {
+      "mode": "explore",
+      "room": 20,
+      "steps": 14,
+      "theme": "attic"
+    },
+    {
+      "mode": "challenge",
+      "room": 1,
+      "steps": 2,
+      "theme": "base"
+    },
+    {
+      "mode": "challenge",
+      "room": 2,
+      "steps": 5,
+      "theme": "base"
+    },
+    {
+      "mode": "challenge",
+      "room": 3,
+      "steps": 3,
+      "theme": "base"
+    },
+    {
+      "mode": "challenge",
+      "room": 4,
+      "steps": 6,
+      "theme": "base"
+    },
+    {
+      "mode": "challenge",
+      "room": 5,
+      "steps": 11,
+      "theme": "base"
+    },
+    {
+      "mode": "challenge",
+      "room": 6,
+      "steps": 7,
+      "theme": "base"
+    },
+    {
+      "mode": "challenge",
+      "room": 7,
+      "steps": 9,
+      "theme": "base"
+    },
+    {
+      "mode": "challenge",
+      "room": 8,
+      "steps": 11,
+      "theme": "base"
+    },
+    {
+      "mode": "challenge",
+      "room": 9,
+      "steps": 9,
+      "theme": "base"
+    },
+    {
+      "mode": "challenge",
+      "room": 10,
+      "steps": 6,
+      "theme": "base"
+    },
+    {
+      "mode": "challenge",
+      "room": 11,
+      "steps": 12,
+      "theme": "base"
+    },
+    {
+      "mode": "challenge",
+      "room": 12,
+      "steps": 11,
+      "theme": "base"
+    },
+    {
+      "mode": "challenge",
+      "room": 13,
+      "steps": 9,
+      "theme": "base"
+    },
+    {
+      "mode": "challenge",
+      "room": 14,
+      "steps": 12,
+      "theme": "base"
+    },
+    {
+      "mode": "challenge",
+      "room": 15,
+      "steps": 13,
+      "theme": "base"
+    },
+    {
+      "mode": "challenge",
+      "room": 16,
+      "steps": 12,
+      "theme": "living"
+    },
+    {
+      "mode": "challenge",
+      "room": 17,
+      "steps": 13,
+      "theme": "study"
+    },
+    {
+      "mode": "challenge",
+      "room": 18,
+      "steps": 11,
+      "theme": "bedroom"
+    },
+    {
+      "mode": "challenge",
+      "room": 19,
+      "steps": 14,
+      "theme": "greenhouse"
+    },
+    {
+      "mode": "challenge",
+      "room": 20,
+      "steps": 14,
+      "theme": "attic"
+    }
+  ],
+  "errors": [],
+  "previewIsolated": true,
+  "independentModes": true,
+  "refreshProgress": true,
+  "widths": [
+    320,
+    390,
+    480,
+    1440
+  ],
+  "realDevice": false
+}

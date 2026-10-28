@@ -1,0 +1,7 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';
+import {emptyProgress,normalizeProgress,canEnter,recordWin} from '../tmp/core/progression.js';
+test('modes unlock independently',()=>{let p=emptyProgress();assert.equal(canEnter(p,'explore',1,20),false);p=recordWin(p,'explore',0,'room-01',2,false,20);assert.equal(p.explore.unlocked,2);assert.equal(p.challenge.unlocked,1);assert.equal(p.explore.current,1);});
+test('preview cannot change progress or scores',()=>{const p=emptyProgress();assert.equal(recordWin(p,'explore',14,'room-15',13,false,20,true),p);});
+test('hinted record cannot replace unaided best',()=>{let p=recordWin(emptyProgress(),'challenge',0,'room-01',4,false,20);p=recordWin(p,'challenge',0,'room-01',2,true,20);assert.equal(p.challenge.records['room-01'].best,2);assert.equal(p.challenge.records['room-01'].bestUnaided,4);});
+test('final level caps unlock and current',()=>{let p=emptyProgress();p.explore.unlocked=20;p=recordWin(p,'explore',19,'room-20',14,false,20);assert.equal(p.explore.current,19);assert.equal(p.explore.unlocked,20);});
+test('invalid completion and damaged storage cannot unlock out of range',()=>{const p=emptyProgress();assert.throws(()=>recordWin(p,'explore',10,'room-11',8,false,20));assert.deepEqual(normalizeProgress(null,20),p);const n=normalizeProgress({version:1,explore:{unlocked:999,current:999}},20);assert.equal(n.explore.unlocked,20);assert.equal(n.explore.current,19);});

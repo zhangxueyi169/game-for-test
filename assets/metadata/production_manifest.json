@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "CAT-IDLE-DOWN",
+      "name": "游戏猫·朝下",
+      "file": "production/cat/cat_idle_down_v001.png",
+      "width": 1254,
+      "height": 1254,
+      "bounds": [
+        377,
+        110,
+        523,
+        990
+      ],
+      "qa_status": "静态检查通过"
+    },
+    {
+      "id": "CAT-IDLE-UP",
+      "name": "游戏猫·朝上",
+      "file": "production/cat/cat_idle_up_v001.png",
+      "width": 1254,
+      "height": 1254,
+      "bounds": [
+        368,
+        70,
+        512,
+        1047
+      ],
+      "qa_status": "静态检查通过"
+    },
+    {
+      "id": "CAT-IDLE-LEFT",
+      "name": "游戏猫·朝左",
+      "file": "production/cat/cat_idle_left_v001.png",
+      "width": 1254,
+      "height": 1254,
+      "bounds": [
+        35,
+        395,
+        1185,
+        488
+      ],
+      "qa_status": "静态检查通过"
+    },
+    {
+      "id": "CAT-IDLE-RIGHT",
+      "name": "游戏猫·朝右",
+      "file": "production/cat/cat_idle_right_v001.png",
+      "width": 1254,
+      "height": 1254,
+      "bounds": [
+        73,
+        407,
+        1132,
+        510
+      ],
+      "qa_status": "静态检查通过"
+    },
+    {
+      "id": "PROP-MAT",
+      "name": "软垫·正常",
+      "file": "production/props/mat_idle_v001.png",
+      "width": 1254,
+      "height": 1254,
+      "bounds": [
+        113,
+        124,
+        1025,
+        999
+      ],
+      "qa_status": "静态检查通过"
+    },
+    {
+      "id": "PROP-MAT-PRESS",
+      "name": "软垫·受压",
+      "file": "production/props/mat_pressed_v001.png",
+      "width": 1254,
+      "height": 1254,
+      "bounds": [
+        111,
+        123,
+        1031,
+        1002
+      ],
+      "qa_status": "静态检查通过"
+    },
+    {
+      "id": "PROP-NEST-BASE",
+      "name": "猫窝·底层",
+      "file": "production/props/nest_base_v001.png",
+      "width": 1254,
+      "height": 1254,
+      "bounds": [
+        59,
+        70,
+        1137,
+        1113
+      ],
+      "qa_status": "静态检查通过"
+    },
+    {
+      "id": "PROP-NEST-FRONT",
+      "name": "猫窝·前沿",
+      "file": "production/props/nest_front_v001.png",
+      "width": 1254,
+      "height": 1254,
+      "bounds": [
+        56,
+        620,
+        1144,
+        564
+      ],
+      "qa_status": "静态检查通过"
+    },
+    {
+      "id": "TILE-FLOOR",
+      "name": "淡木地格",
+      "file": "production/props/tile_floor_v001.png",
+      "width": 1254,
+      "height": 1254,
+      "bounds": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "qa_status": "静态检查通过"
+    },
+    {
+      "id": "TILE-WALL",
+      "name": "木制障碍地格",
+      "file": "production/props/tile_wall_v001.png",
+      "width": 1254,
+      "height": 1254,
+      "bounds": [
+        88,
+        97,
+        1077,
+        1059
+      ],
+      "qa_status": "静态检查通过"
+    },
+    {
+      "id": "FX-PAW",
+      "name": "覆盖爪印",
+      "file": "production/fx/paw_v001.png",
+      "width": 1254,
+      "height": 1254,
+      "bounds": [
+        45,
+        147,
+        1164,
+        976
+      ],
+      "qa_status": "静态检查通过"
+    }
+  ]
+}

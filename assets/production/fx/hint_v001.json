@@ -1,0 +1,6 @@
+{
+  "type": "canvas_arrow",
+  "duration": 1800,
+  "solver": "worker BFS from current state",
+  "implementation": "src/game/game.ts"
+}

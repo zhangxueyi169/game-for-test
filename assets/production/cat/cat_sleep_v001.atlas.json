@@ -1,0 +1,35 @@
+{
+  "id": "CAT-SLEEP",
+  "file": "production/cat/cat_sleep_v001.png",
+  "bounds": [
+    0,
+    0,
+    2172,
+    724
+  ],
+  "frames": [
+    {
+      "x": 255,
+      "y": 29,
+      "w": 417,
+      "h": 647,
+      "duration": 230
+    },
+    {
+      "x": 821,
+      "y": 172,
+      "w": 520,
+      "h": 488,
+      "duration": 260
+    },
+    {
+      "x": 1479,
+      "y": 172,
+      "w": 520,
+      "h": 481,
+      "duration": 260
+    }
+  ],
+  "width": 2172,
+  "height": 724
+}

@@ -1,0 +1,9 @@
+{
+  "id": "UI-EXPLORE",
+  "type": "html_css_component",
+  "implementation": [
+    "src/game/game.ts",
+    "src/game/game.css"
+  ],
+  "note": "程序组件，不是位图资产"
+}

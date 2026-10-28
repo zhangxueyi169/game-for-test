@@ -1,0 +1,235 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "CAT-YAWN",
+      "file": "production/cat/cat_yawn_v001.png",
+      "bounds": [
+        0,
+        0,
+        2172,
+        724
+      ],
+      "frames": [
+        {
+          "x": 41,
+          "y": 47,
+          "w": 341,
+          "h": 626,
+          "duration": 80
+        },
+        {
+          "x": 472,
+          "y": 47,
+          "w": 343,
+          "h": 626,
+          "duration": 100
+        },
+        {
+          "x": 911,
+          "y": 47,
+          "w": 340,
+          "h": 632,
+          "duration": 130
+        },
+        {
+          "x": 1345,
+          "y": 47,
+          "w": 341,
+          "h": 632,
+          "duration": 220
+        },
+        {
+          "x": 1787,
+          "y": 47,
+          "w": 339,
+          "h": 626,
+          "duration": 120
+        }
+      ],
+      "width": 2172,
+      "height": 724
+    },
+    {
+      "id": "CAT-SLEEP",
+      "file": "production/cat/cat_sleep_v001.png",
+      "bounds": [
+        0,
+        0,
+        2172,
+        724
+      ],
+      "frames": [
+        {
+          "x": 255,
+          "y": 29,
+          "w": 417,
+          "h": 647,
+          "duration": 230
+        },
+        {
+          "x": 821,
+          "y": 172,
+          "w": 520,
+          "h": 488,
+          "duration": 260
+        },
+        {
+          "x": 1479,
+          "y": 172,
+          "w": 520,
+          "h": 481,
+          "duration": 260
+        }
+      ],
+      "width": 2172,
+      "height": 724
+    },
+    {
+      "id": "ROOM-BASE",
+      "file": "production/rooms/room_base_v001.png",
+      "bounds": [
+        0,
+        0,
+        1086,
+        1448
+      ],
+      "frames": [],
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "ROOM-LIVING",
+      "file": "production/rooms/room_living_v001.png",
+      "bounds": [
+        0,
+        0,
+        1086,
+        1448
+      ],
+      "width": 1086,
+      "height": 1448,
+      "frames": []
+    },
+    {
+      "id": "ROOM-STUDY",
+      "file": "production/rooms/room_study_v001.png",
+      "bounds": [
+        0,
+        0,
+        1086,
+        1448
+      ],
+      "width": 1086,
+      "height": 1448,
+      "frames": []
+    },
+    {
+      "id": "ROOM-BED",
+      "file": "production/rooms/room_bed_v001.png",
+      "bounds": [
+        0,
+        0,
+        1086,
+        1448
+      ],
+      "width": 1086,
+      "height": 1448,
+      "frames": []
+    },
+    {
+      "id": "ROOM-GREEN",
+      "file": "production/rooms/room_green_v001.png",
+      "bounds": [
+        0,
+        0,
+        1086,
+        1448
+      ],
+      "width": 1086,
+      "height": 1448,
+      "frames": []
+    },
+    {
+      "id": "ROOM-ATTIC",
+      "file": "production/rooms/room_attic_v001.png",
+      "bounds": [
+        0,
+        0,
+        1086,
+        1448
+      ],
+      "width": 1086,
+      "height": 1448,
+      "frames": []
+    },
+    {
+      "id": "CAT-HERO",
+      "file": "production/cat/cat_hero_v001.png",
+      "bounds": [
+        0,
+        17,
+        1248,
+        1237
+      ],
+      "width": 1254,
+      "height": 1254,
+      "frames": []
+    },
+    {
+      "id": "CAT-HERO-FACES",
+      "file": "production/cat/cat_hero_faces_v001.png",
+      "width": 1254,
+      "height": 1254,
+      "bounds": [
+        107,
+        8,
+        1025,
+        1234
+      ],
+      "frames": [
+        {
+          "x": 107,
+          "y": 8,
+          "w": 474,
+          "h": 619,
+          "duration": 2500
+        },
+        {
+          "x": 659,
+          "y": 9,
+          "w": 473,
+          "h": 618,
+          "duration": 170
+        },
+        {
+          "x": 110,
+          "y": 627,
+          "w": 472,
+          "h": 615,
+          "duration": 260
+        },
+        {
+          "x": 657,
+          "y": 627,
+          "w": 473,
+          "h": 615,
+          "duration": 950
+        }
+      ]
+    },
+    {
+      "id": "CAT-HERO-TAIL",
+      "file": "production/cat/cat_hero_tail_v001.png",
+      "width": 1254,
+      "height": 1254,
+      "bounds": [
+        207,
+        46,
+        932,
+        1165
+      ],
+      "frames": []
+    }
+  ]
+}
